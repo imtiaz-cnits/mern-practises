@@ -1,1 +1,0 @@
-fill: linear-gradient(270deg, #D760F9 0%, #4617F8 100%);
