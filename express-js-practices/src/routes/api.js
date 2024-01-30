@@ -16,3 +16,6 @@ router.put("/update", StudentController.UpdateStudent);
 
 // for delete we will use DELETE method
 router.delete("/delete", StudentController.DeleteStudent);
+
+
+module.exports = router;

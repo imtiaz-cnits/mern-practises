@@ -1,0 +1,35 @@
+Web Application Boilerplate -
+
+01. create package.json file using 'npm init --y' command
+02. install express.js using 'npm i express'
+03. index.js is "a car's key" and app.js is like "car's engine",
+04. install nodemon using 'npm i nodemon' command
+05. create index.js and app.js file
+06. create src folder
+07. under src folder create 'controllers', 'models', 'routes' folder
+08. under controllers folder create NameController.js file
+09. under routes folder create api.js file
+
+    a. Connect routes to api.js
+        1. import express.js into api.js by writing "const express = require('express');"
+        2. import router file by "const router = require('./src/routes/api')"
+        3. import app by "const app = new express();"
+        4. use routes in app.js by "app.use('/', router)"
+        5. export app.js by "module.exports = app;"
+
+    b. working on index.js
+        1. import app.js here by "const app = require('/app');"
+        2. make a port for listening by "app.listen(8090, function() {
+            console.log('App is running at port 8090');
+        });"
+        3. if nodemon doesn't run properly run this command 'npm install -g nodemon' - for install nodemon globally
+
+07. install postman app on pc. postman is used for simulating api request from web app
+    a. create workspace
+    b. create collection
+    c. create request
+    d. set URL and click send to test
+    e. make create req with POST method
+    f. make read req with GET method
+    g. make update req with PUT method
+    h. make delete req with DELETE method
