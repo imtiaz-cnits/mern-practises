@@ -24,7 +24,7 @@ Web Application Boilerplate -
         });"
         3. if nodemon doesn't run properly run this command 'npm install -g nodemon' - for install nodemon globally
 
-07. install postman app on pc. postman is used for simulating api request from web app
+10. install postman app on pc. postman is used for simulating api request from web app
     a. create workspace
     b. create collection
     c. create request
