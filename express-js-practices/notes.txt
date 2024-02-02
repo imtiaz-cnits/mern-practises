@@ -33,3 +33,6 @@ Web Application Boilerplate -
     f. make read req with GET method
     g. make update req with PUT method
     h. make delete req with DELETE method
+
+
+    Some changes for adding to github
